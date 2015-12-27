@@ -17,4 +17,4 @@
 /tmp
 
 # ignore idea files
-.idea/workspace.xml
+.idea/
