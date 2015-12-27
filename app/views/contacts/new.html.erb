@@ -1,0 +1,41 @@
+<section class="contact">
+  <div class="container">
+
+    <div class="row title">
+      <h1>Contact Me</h1>
+    </div>
+
+    <div class="row">
+      <p>Hey there! Thank you for your interest in contacting me!</p>
+      <p>Thanks for reaching out to me. Just use the form below.</p>
+      <p>I will try my very best to respond within 48 hours to messages.</p>
+      <p>You may also attempt to reach me via my <a href="https://www.facebook.com/Ratracegrad">Facebook Page</a> or <a href="https://twitter.com/ratracegrad">Twitter</a>. I am active on these platforms.</p>
+      <hr>
+
+      <%= form_for(@contact) do |f| %>
+          <div class="field">
+            <%= f.label :name %>
+            <%= f.text_field :name, class: 'formText' %>
+          </div>
+          <div class="field">
+            <%= f.label :email %>
+            <%= f.text_field :email, class: 'formText' %>
+          </div>
+          <div class="field">
+            <%= f.label :subject %>
+            <%= f.text_field :subject, class: 'formText' %>
+          </div>
+          <div class="field">
+            <%= f.label :message %>
+            <%= f.text_area :message %>
+          </div>
+
+          <div class="actions">
+            <%= f.submit "Submit", class: 'btn btn-primary' %>
+          </div>
+
+      <% end %>
+    </div>
+
+  </div>
+</section>
