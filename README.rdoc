@@ -1,28 +1,32 @@
-== README
+# Rails Sample Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> If you are interested in learning Ruby on Rails 4, I created this sample application to show some of the basic features of the application. It is a fully functional website. This sample application shows you how to create sample routes, use a datbase and create forms.
 
-Things you may want to cover:
+## Table of Contents
 
-* Ruby version
+1. [Live Demo](#demo)
+2. [Requirements](#requirements)
+3. [Installation](#installation)
+4. [Screenshots](#screenshots)
 
-* System dependencies
+## Demo
+You may [view this application online here](https://rails-sample-portfolio.herokuapp.com/)
 
-* Configuration
+## Requirements
+Ruby
+Rails 4
+Bundler
 
-* Database creation
+## Installation
+```bash
+git clone git@github.com:ratracegrad/rails-sample-coding-portfolio.git
+cd rails-sample-coding-portolio
+bundle install
+rails s -p 8080
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+## Screenshots
+![Portfolio Homepage](/screenshots/portfolio_home.png?raw=true "Portfolio Home Page")
+![Portfolio Display](/screenshots/portfolio_portfolio.png?raw=true "Portfolio Display")
+![Portfolio About](/screenshots/portfolio_about.png?raw=true "Portfolio About Page")
+![Portfolio Contact](/screenshots/portfolio_contact.png?raw=true "Portfolio Contact Page")
